@@ -1,3 +1,5 @@
+@import './about-us.css';
+@import './contact.css';
 @font-face {
     font-family: ekad-700;
     font-weight: 700;
@@ -483,6 +485,9 @@ footer{
 }
 /* ----------------------------------banner_section end----------------------- */
 /* ----------------------------------special_offer---------------------------- */
+.special_offer{
+    background-color: #f9f9f9;
+}
 .special_offer_single_banner{
     background-image: url(../img/banner-3-bg.jpg);
     background-size: cover;
