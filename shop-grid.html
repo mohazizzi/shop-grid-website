@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>درباره ما-شاپ گرید</title>
+</head>
+<body>   
+    <header>
+        <!-- top bar -->
+        <div class="topbar text-light">
+            <div class="container">
+                <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                    <div class="my-3">
+                        <a class="text-light" href="#">وارد شوید</a>
+                        <span>|</span>
+                        <a class="text-light" href="#">ثیت نام</a>
+                        <span class="mr-4">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                            سلام
+                        </span>
+                    </div>
+                    <ul class="nav justify-content-center d-none d-md-flex">
+                        <li class="nav-item">
+                            <a class="nav-link text-light active" href="./index.html">
+خانه
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./about-us.html">
+                              درباره ما
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./contact.html">
+                                ارتباط باما
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="d-inline">
+                        <select class="text-light mb-3 mb-md-0">
+                            <option value="0" selected="">ریال</option>
+                            <option value="1">dollar</option>
+                        </select>
+                        <select class="text-light">
+                            <option value="0" selected="">فارسی</option>
+                            <option value="1">english</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- middle bar -->
+        <div class="middle_bar">
+            <div class="container py-4">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-center website__logo">
+                        <img class="d-inline" src="./assets/img/logo.png" width="50" alt="لوگوی وبسایت">
+                         <span class="text-dark h3 m-0">
+                             <span class="logo_text">
+                                 شاپ
+                             </span>
+                             گرید
+                         </span>
+                    </div>
+                    <div class="w-40 search__group">
+                        <div class="input-group input-group-lg d-none d-md-flex">
+                            <div class="input-group-prepend">
+                              <button class="btn text-light" type="button" id="search-btn">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                              </button>
+                            </div>
+                            <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                            <div class="input-group-append">
+                                <div class="input-group-text p-0 bg-white">
+                                    <select class="text-muted bg-white">
+                                        <option value="0" selected="">All</option>
+                                        <option value="1">option1</option>
+                                        <option value="2">option2</option>
+                                        <option value="3">option3</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="align-items-center ml-5  d-none d-lg-flex">
+                            <div class="border border-muted rounded-circle ml-2">
+                                <i class="fa fa-phone px-2 m-0 h3 text-dark" aria-hidden="true"></i>
+                            </div>
+                            <h6 class="m-0 text-dark d-flex flex-column">
+                                <span>
+                                    تلفن:
+                                </span>
+                                <span class="text-muted">
+                                    06155555555
+                                </span>
+                            </h6>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <button type="button" class="btn border border-muted rounded-circle ml-2 middle_bar__btn">
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </button>
+                            <button type="button" class="btn border border-muted rounded-circle middle_bar__btn">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end bar -->
+        <div class="end_bar border-top border-bottom">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div class="dropdown ml-4 pl-5 border-left d-none d-lg-block" id="custom__dropdown">
+                            <button class="btn custom_dropdown_btn dropdown-toggle custom__line-height" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              دسته بندی ها
+                            </button>
+                            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                                
+                                <li class="dropdown-submenu">
+                                    <a  class="dropdown-item" href="./shop-grid.html">
+                                        الکترونیکی
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li>
+                                          <a class="dropdown-item" href="./shop-grid.html">
+                                              دوربین دیجیتالی
+                                          </a>
+                                        </li>
+                                      <li>
+                                          <a class="dropdown-item" href="./shop-grid.html">
+                                              هدفون
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="./shop-grid.html">
+                                              پهپاد
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="./shop-grid.html">
+                                              ساعت هوشمند
+                                          </a>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                <li><a class="dropdown-item" href="./shop-grid.html">
+                                    اکسسوری
+                                </a></li>
+                                <li><a class="dropdown-item" href="./shop-grid.html">
+                                    تلوزیون
+                                </a></li>
+                              </ul>
+                        </div>
+                        <nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
+                            <button class="navbar-toggler custom__line-height border-0" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                              <ul class="navbar-nav">
+                                <li class="nav-item ml-2">
+                                  <a class="nav-link custom__line-height text-dark" href="./index.html">
+                                      خانه
+                                  </a>
+                                </li>
+                                <li class="nav-item ml-2 dropdown">
+                                  <a class="nav-link dropdown-toggle text-dark custom__line-height" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    صفحه ها
+                                  </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="./about-us.html">
+                                        درباره ما
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        پرسش و پاسخ
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        ثبت نام
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        ورود
+                                    </a>
+                                    <a class="dropdown-item" href="#">404</a>
+                                  </div>
+                                </li>
+                                <li class="nav-item ml-2 dropdown">
+                                    <a class="nav-link dropdown-toggle active_menu text-dark custom__line-height" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      خرید
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                      <a class="dropdown-item active_menu" href="#">
+                                          شاپ گرید
+                                      </a>
+                                      <a class="dropdown-item" href="#">
+                                          لیست خرید
+                                      </a>
+                                      <a class="dropdown-item" href="#">
+                                          خرید تکی
+                                      </a>
+                                      <a class="dropdown-item" href="#">
+                                          کارت
+                                      </a>
+                                      <a class="dropdown-item" href="#">
+                                          بررسی
+                                      </a>
+                                    </div>
+                                  </li>
+                                  <li class="nav-item ml-2 dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark custom__line-height" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      بلاگ
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                      <a class="dropdown-item" href="#">
+                                          بلاگ گرید سایدبار
+                                      </a>
+                                      <a class="dropdown-item" href="#">
+                                          بلاگ سینگل
+                                      </a>
+                                      <a class="dropdown-item" href="#">
+                                          بلاگ سینگل سایدبار
+                                      </a>
+                                    </div>
+                                  </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark custom__line-height" href="./contact.html">
+                                        ارتباط باما
+                                    </a>
+                                  </li>
+                              </ul>
+                            </div>
+                          </nav>
+                    </div>
+                    <div class="social_links_group">
+                        <span class="text-dark">
+                            ما را دنبال کنید:
+                        </span>
+                        <a href="#" class="text-dark social_links">
+                            <i class="fa fa-facebook border rounded-circle h6 social_links_icon_facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="text-dark social_links">
+                            <i class="fa fa-twitter border rounded-circle h6 social_links_icon" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="text-dark social_links">
+                            <i class="fa fa-instagram border rounded-circle h6 social_links_icon" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="text-dark social_links">
+                            <i class="fa fa-skype border rounded-circle h6 social_links_icon" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="breadcrumbs_section py-4">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-6 col-md-6 c0l-12">
+                    <ol class="breadcrumb p-0 m-0">
+                        <li class="breadcrumb-item h5 m-0">
+                            <a href="./index.html">
+                                خانه
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item h5 m-0" aria-current="page">
+                            شاپ گرید
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-lg-6 col-md-6 c0l-12">
+                    <div class="breadcrumb_cuntent float-left">
+                        <h5 class="page_title text-dark"> 
+                            شاپ گرید
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product_grid py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12">
+                    <div class="product_sidebar">
+                        <div class="single_widget search">
+                            <h5>
+                                جستجوی محصولات
+                            </h5>
+                            <form action="">
+                                <input type="text" placeholder="جستجو...">
+                                <button type="submit">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="single_widget">
+                            <h5>
+                                دسته بندی ها
+                            </h5>
+                            <ul class="single_widget_list p-0">
+                                <li>
+                                    <a href="./shop-grid.html">
+                                        کامپیوتر و لوازم جانبی
+                                    </a>
+                                    <span>
+                                        (۱۱۳۸)
+                                    </span>
+                                </li>
+                                <li>
+                                    <a href="./shop-grid.html">
+                                        کامپیوتر و لوازم جانبی
+                                    </a>
+                                    <span>
+                                        (۱۱۳۸)
+                                    </span>
+                                </li>
+                                <li>
+                                    <a href="./shop-grid.html">
+                                        کامپیوتر و لوازم جانبی
+                                    </a>
+                                    <span>
+                                        (۱۱۳۸)
+                                    </span>
+                                </li>
+                                <li>
+                                    <a href="./shop-grid.html">
+                                        کامپیوتر و لوازم جانبی
+                                    </a>
+                                    <span>
+                                        (۱۱۳۸)
+                                    </span>
+                                </li>
+                                <li>
+                                    <a href="./shop-grid.html">
+                                        کامپیوتر و لوازم جانبی
+                                    </a>
+                                    <span>
+                                        (۱۱۳۸)
+                                    </span>
+                                </li>
+                                <li>
+                                    <a href="./shop-grid.html">
+                                        کامپیوتر و لوازم جانبی
+                                    </a>
+                                    <span>
+                                        (۱۱۳۸)
+                                    </span>
+                                </li>
+                                <li>
+                                    <a href="./shop-grid.html">
+                                        کامپیوتر و لوازم جانبی
+                                    </a>
+                                    <span>
+                                        (۱۱۳۸)
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="single_widget range">
+                            <h5>
+                                محدوده قیمت
+                            </h5>
+                            <input type="range" step="1" min="100" max="1000" value="10" class="form-range">
+                            <div class="range_inner">
+                                <label>t</label>
+                                <input type="text" id="rangePrimary" placeholder="100" class="border-0 mr-1 w-50">
+                            </div>
+                        </div>
+                        <div class="single_widget condition">
+                            <h5>
+                                محدوده قیمت
+                            </h5>
+                            <div class="form-check">
+                                <input type="checkbox" id="widget-checkbox-one" class="form-check-input">
+                                <label for="widget-checkbox-one" class="form-check-label">
+                                    ۵۰t - ۱۰۰t
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="widget-checkbox-two" class="form-check-input">
+                                <label for="widget-checkbox-two" class="form-check-label">
+                                    ۵۰t - ۱۰۰t
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="widget-checkbox-three" class="form-check-input">
+                                <label for="widget-checkbox-three" class="form-check-label">
+                                    ۵۰t - ۱۰۰t
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="widget-checkbox-four" class="form-check-input">
+                                <label for="widget-checkbox-four" class="form-check-label">
+                                    ۵۰t - ۱۰۰t
+                                </label>
+                            </div>
+                        </div>
+                        <div class="single_widget condition">
+                            <h5>
+                                انتخاب برند
+                            </h5>
+                            <div class="form-check">
+                                <input type="checkbox" id="widget-checkbox-five" class="form-check-input">
+                                <label for="widget-checkbox-five" class="form-check-label">
+                                    اپل
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="widget-checkbox-six" class="form-check-input">
+                                <label for="widget-checkbox-six" class="form-check-label">
+                                    اپل
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="widget-checkbox-seven" class="form-check-input">
+                                <label for="widget-checkbox-seven" class="form-check-label">
+                                    اپل
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="widget-checkbox-eight" class="form-check-input">
+                                <label for="widget-checkbox-eight" class="form-check-label">
+                                    اپل
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="widget-checkbox-nin" class="form-check-input">
+                                <label for="widget-checkbox-nin" class="form-check-label">
+                                    اپل
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="widget-checkbox-ten" class="form-check-input">
+                                <label for="widget-checkbox-ten" class="form-check-label">
+                                    اپل
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="widget-checkbox-eleven" class="form-check-input">
+                                <label for="widget-checkbox-eleven" class="form-check-label">
+                                    اپل
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="widget-checkbox-thirteen" class="form-check-input">
+                                <label for="widget-checkbox-thirteen" class="form-check-label">
+                                    اپل
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-12">
+                    <div class="product_grids_head">
+                        <div class="product_grid_tipbar">
+                            <div class="row">
+                                <div class="col-lg-7 col-md-8 col-12">
+                                    <div class="product-sorting">
+                                        <label for="sorting">
+                                            ترتیب براساس
+                                        </label>
+                                        <select class="bg-white border p-2 rounded-2 d-inline-block" id="sorting">
+                                            <option>
+                                                پرفروش
+                                            </option>
+                                            <option>
+                                                قیمت پایین به بالا
+                                            </option>
+                                            <option>
+                                                قیمت بالا به پایین
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="single_product bg-white mt-2">
+                                <div class="product_img">
+                                    <img src="./assets/img/product-1.jpg" alt="محصولات">
+                                    <div class="product_btn">
+                                        <a class="px-2 py-1" href="#">
+                                            افزودن به سبد خرید
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product_info">
+                                    <span class="product_category d-block my-2">ساعت</span>
+                                    <h5 class="product_title">
+                                        <a href="#">
+                                            Xiaomi mi band5
+                                        </a>
+                                    </h5>
+                                    <ul class="product_review p-0 my-2">
+                                        <li class="d-inline-block">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="d-inline-block">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="d-inline-block">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="d-inline-block">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="d-inline-block">
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="d-block">
+                                            <span>
+                                                ۱۵۰ بازدید
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <div class="product_price">
+                                        <span>
+                                            ۲٫۰۰۰٫۰۰۰t
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="single_product bg-white mt-2">
+                                <div class="product_img">
+                                    <img src="./assets/img/product-2.jpg" alt="محصولات">
+                                    <div class="product_btn">
+                                        <a class="px-2 py-1" href="#">
+                                            افزودن به سبد خرید
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product_info">
+                                    <span class="product_category d-block my-2">ساعت</span>
+                                    <h5 class="product_title">
+                                        <a href="#">
+                                            Xiaomi mi band5
+                                        </a>
+                                    </h5>
+                                    <ul class="product_review p-0 my-2">
+                                        <li class="d-inline-block">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="d-inline-block">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="d-inline-block">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="d-inline-block">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="d-inline-block">
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="d-block">
+                                            <span>
+                                                ۱۵۰ بازدید
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <div class="product_price">
+                                        <span>
+                                            ۲٫۰۰۰٫۰۰۰t
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="single_product bg-white mt-2">
+                                <div class="product_img">
+                                    <img src="./assets/img/product-3.jpg" alt="محصولات">
+                                    <div class="product_btn">
+                                        <a class="px-2 py-1" href="#">
+                                            افزودن به سبد خرید
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product_info">
+                                    <span class="product_category d-block my-2">ساعت</span>
+                                    <h5 class="product_title">
+                                        <a href="#">
+                                            Xiaomi mi band5
+                                        </a>
+                                    </h5>
+                                    <ul class="product_review p-0 my-2">
+                                        <li class="d-inline-block">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="d-inline-block">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="d-inline-block">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="d-inline-block">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="d-inline-block">
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        </li>
+                                        <li class="d-block">
+                                            <span>
+                                                ۱۵۰ بازدید
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <div class="product_price">
+                                        <span>
+                                            ۲٫۰۰۰٫۰۰۰t
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="single_product bg-white mt-2">
+                        <div class="product_img">
+                            <img src="./assets/img/product-4.jpg" alt="محصولات">
+                            <div class="product_btn">
+                                <a class="px-2 py-1" href="#">
+                                    افزودن به سبد خرید
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product_info">
+                            <span class="product_category d-block my-2">ساعت</span>
+                            <h5 class="product_title">
+                                <a href="#">
+                                    Xiaomi mi band5
+                                </a>
+                            </h5>
+                            <ul class="product_review p-0 my-2">
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-block">
+                                    <span>
+                                        ۱۵۰ بازدید
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="product_price">
+                                <span>
+                                    ۲٫۰۰۰٫۰۰۰t
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="single_product bg-white mt-2">
+                        <div class="product_img">
+                            <img src="./assets/img/product-5.jpg" alt="محصولات">
+                            <div class="product_btn">
+                                <a class="px-2 py-1" href="#">
+                                    افزودن به سبد خرید
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product_info">
+                            <span class="product_category d-block my-2">ساعت</span>
+                            <h5 class="product_title">
+                                <a href="#">
+                                    Xiaomi mi band5
+                                </a>
+                            </h5>
+                            <ul class="product_review p-0 my-2">
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-block">
+                                    <span>
+                                        ۱۵۰ بازدید
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="product_price">
+                                <span>
+                                    ۲٫۰۰۰٫۰۰۰t
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="single_product bg-white mt-2">
+                        <div class="product_img">
+                            <img src="./assets/img/product-6.jpg" alt="محصولات">
+                            <div class="product_btn">
+                                <a class="px-2 py-1" href="#">
+                                    افزودن به سبد خرید
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product_info">
+                            <span class="product_category d-block my-2">ساعت</span>
+                            <h5 class="product_title">
+                                <a href="#">
+                                    Xiaomi mi band5
+                                </a>
+                            </h5>
+                            <ul class="product_review p-0 my-2">
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-block">
+                                    <span>
+                                        ۱۵۰ بازدید
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="product_price">
+                                <span>
+                                    ۲٫۰۰۰٫۰۰۰t
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="single_product bg-white mt-2">
+                        <div class="product_img">
+                            <img src="./assets/img/product-7.jpg" alt="محصولات">
+                            <div class="product_btn">
+                                <a class="px-2 py-1" href="#">
+                                    افزودن به سبد خرید
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product_info">
+                            <span class="product_category d-block my-2">ساعت</span>
+                            <h5 class="product_title">
+                                <a href="#">
+                                    Xiaomi mi band5
+                                </a>
+                            </h5>
+                            <ul class="product_review p-0 my-2">
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-block">
+                                    <span>
+                                        ۱۵۰ بازدید
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="product_price">
+                                <span>
+                                    ۲٫۰۰۰٫۰۰۰t
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="single_product bg-white mt-2">
+                        <div class="product_img">
+                            <img src="./assets/img/product-8.jpg" alt="محصولات">
+                            <div class="product_btn">
+                                <a class="px-2 py-1" href="#">
+                                    افزودن به سبد خرید
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product_info">
+                            <span class="product_category d-block my-2">ساعت</span>
+                            <h5 class="product_title">
+                                <a href="#">
+                                    Xiaomi mi band5
+                                </a>
+                            </h5>
+                            <ul class="product_review p-0 my-2">
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-block">
+                                    <span>
+                                        ۱۵۰ بازدید
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="product_price">
+                                <span>
+                                    ۲٫۰۰۰٫۰۰۰t
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="single_product bg-white mt-2">
+                        <div class="product_img">
+                            <img src="./assets/img/product-1.jpg" alt="محصولات">
+                            <div class="product_btn">
+                                <a class="px-2 py-1" href="#">
+                                    افزودن به سبد خرید
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product_info">
+                            <span class="product_category d-block my-2">ساعت</span>
+                            <h5 class="product_title">
+                                <a href="#">
+                                    Xiaomi mi band5
+                                </a>
+                            </h5>
+                            <ul class="product_review p-0 my-2">
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-inline-block">
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                </li>
+                                <li class="d-block">
+                                    <span>
+                                        ۱۵۰ بازدید
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="product_price">
+                                <span>
+                                    ۲٫۰۰۰٫۰۰۰t
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="pagination mt-5">
+                                <ul class="pagination_list">
+                                    <li class="d-inline-block">
+                                        <a href="#">
+                                            ۱
+                                        </a>
+                                    </li>
+                                    <li class="d-inline-block active-pagination">
+                                        <a href="#">
+                                            ۲
+                                        </a>
+                                    </li>
+                                    <li class="d-inline-block">
+                                        <a href="#">
+                                            ۳
+                                        </a>
+                                    </li>
+                                    <li class="d-inline-block">
+                                        <a href="#">
+                                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<footer>
+        <div class="top_footer py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="d-flex align-items-center website_footer_logo">
+                            <img class="d-inline" src="./assets/img/logo.png" width="50" alt="لوگوی وبسایت">
+                             <span class="text-light h3 m-0">
+                                     شاپ
+                                 گرید
+                             </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-none d-lg-block">
+                        <h5 class="text-light">
+                            خبرنامه ما را دنبال کنید
+                        </h5>
+                        <p>
+                            آخرین اخبار را درباره ی تخفیفات دنبال کنید
+                        </p>
+                    </div>
+                    <div class="col-lg-5 col-md-8 col-sm-12">
+                        <form action="#" class="input-group">
+                            <input name="Email" type="email" class="footer_input form-control bg-secondary text-light" placeholder="ایمیل را وارد کنید">
+                            <button type="submit" class="footer_btn mr-2 px-4 py-2">دنبال کردن</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="middle_footer py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <h3 class="pb-3 my-4">
+                            باما در ارتباط باشید
+                        </h3>
+                        <p>
+                            تلفن:
+                            ۰۹۰۲۲۰۹۳۲۲۳
+                        </p>
+                        <p>
+                            شنبه تا چهارشنبه:
+                            <br>
+                            ۹صبح تا ۸ شب
+                        </p>
+                        <p>
+                            پنجشنبه:
+                            <br>
+                            ۱۰صبح تا ۶قصز
+                        </p>
+                        <p>
+                            <a href="#" class="middle_footer_cta">
+                                support@me.com
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <h3 class="pb-3 my-4">
+                            اپیکیشن موبایل
+                        </h3>
+                        <a href="#" class="text-muted middle_footer_btn d-flex align-items-center justify-content-center px-4 mb-3">
+                            <i class="fa fa-apple" aria-hidden="true"></i>
+                            <span>
+                                دانلود از اپ استور
+                            </span>
+                        </a>
+                        <a href="#" class="text-muted middle_footer_btn d-flex align-items-center justify-content-center px-4">
+                            <img src="./assets/img/Google_Play-Icon-Logo.wine.png" alt="google play icon">
+                            <span>
+                            دانلوداز گوگل استور
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <h3 class="pb-3 my-4">
+                            اطلاعات
+                        </h3>
+                        <a href="./about-us.html" class="middle_footer_cta d-block mb-3">
+                            درباره ی ما
+                        </a>
+                        <a href="./contact.html" class="middle_footer_cta d-block mb-3">
+                            ارتباط باما
+                        </a>
+                        <a href="#" class="middle_footer_cta d-block mb-3">
+                            دانلودها
+                        </a>
+                        <a href="#" class="middle_footer_cta d-block mb-3">
+                            نقشه سایت
+                        </a>
+                        <a href="#" class="middle_footer_cta d-block">
+                            پزسشهای متداول
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <h3 class="pb-3 my-4">
+                            بخش فروشگاهی
+                        </h3>
+                        <a href="#" class="middle_footer_cta d-block mb-3">
+                            لوازم جانبی رایانه
+                        </a>
+                        <a href="#" class="middle_footer_cta d-block mb-3">
+                            گوشی هوشمند و تبلت
+                        </a>
+                        <a href="#" class="middle_footer_cta d-block mb-3">
+                            تلوزیون
+                        </a>
+                        <a href="#" class="middle_footer_cta d-block mb-3">
+                            دوربین
+                        </a>
+                        <a href="#" class="middle_footer_cta d-block mb-3">
+                            هدفون
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="end_footer py-3">
+            <div class="container">
+                <div class="row align-items-center text-center">
+                    <div class="col-lg-4 col-12 end_footer_row">
+                        <span>
+                            انواع روش پرداخت:
+                        </span>
+                        <img src="./assets/img/credit-cards-footer.png" alt="list of credits cards">
+                    </div>
+                    <div class="col-lg-4 col-12 end_footer_row">
+                        <p class="m-0">
+                            این وبسایت توسط GrayGrids طراحی شده
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <span>
+                            ما را دنبال کنید:
+                        </span>
+                        <a href="#" class="rounded-circle mr-2 px-2 py-1">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="rounded-circle mr-2 px-2 py-1">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="rounded-circle mr-2 px-2 py-1">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/vendor/jquery/jquery.min.js"></script>
+    <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+</body>
+</html>

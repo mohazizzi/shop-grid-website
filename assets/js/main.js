@@ -16,8 +16,10 @@
 // })(jQuery);
 
 
-const countDown = () => {
 
+
+// timer in index.html
+const countDown = () => {
 
     const countDate = new Date('may 17, 2023 00:00:00').getTime();
     const now = new Date().getTime();

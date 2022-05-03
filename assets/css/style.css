@@ -1,5 +1,10 @@
 @import './about-us.css';
 @import './contact.css';
+@import './f&q.css';
+@import './register.css';
+@import './login.css';
+@import './404.css';
+@import './shop-grid.css';
 @font-face {
     font-family: ekad-700;
     font-weight: 700;
@@ -28,8 +33,10 @@
     src: url('../fonts/paresefid-number.woff2') format('woff');
 }
 
-head {
+header {
     background: #fff !important;
+    position: relative;
+    z-index: 99;
 }
 
 body {
@@ -91,8 +98,6 @@ a{
     right: 100%;
     margin-top: -6px;
     margin-left: -1px;
-    -webkit-border-radius: 0 6px 6px 6px;
-    -moz-border-radius: 0 6px 6px;
     border-radius: 0 6px 6px 6px;
 }
 
@@ -126,8 +131,6 @@ a{
 .dropdown-submenu.pull-left>.dropdown-menu {
     left: -100%;
     margin-left: 10px;
-    -webkit-border-radius: 6px 0 6px 6px;
-    -moz-border-radius: 6px 0 6px 6px;
     border-radius: 6px 0 6px 6px;
 }
 /* -------------dropdown submenu end------------------ */
@@ -401,7 +404,7 @@ footer{
     transition: all .4s ease;
 }
 .product_btn{
-    width: 65%;
+    width: 62%;
     position: absolute;
     left: 50%;
     bottom: 10px;

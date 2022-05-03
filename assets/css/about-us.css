@@ -1,4 +1,9 @@
 /* -----------------------------------breadcrumbs_section----------------------------- */
+.breadcrumbs_section{
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 7px 30px rgba(0,0,0,.075);
+}
 .breadcrumb{
     background-color: transparent;
     color: #888 !important;
